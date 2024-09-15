@@ -7,3 +7,6 @@ def january(request):
 
 def february(request):
     return HttpResponse ("<h1> Walk for at least 20 minutes every day!!!<h1/>")
+
+def monthly_challenges(request):
+    return HttpResponse ()
